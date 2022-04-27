@@ -165,6 +165,10 @@ def eightQueenGA(initialPopulation,survivalRate,mutationRate,generation):
         
 
 if __name__ == '__main__':
+    
+    # update the intital population size, mutation rate and selection rate
+    # to get result ealier in the generation
+    
     best_result,generation = eightQueenGA(100, 70, 50, 20000)
 
     print("Best result :",best_result,"Generation : ",generation)
